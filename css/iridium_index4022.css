@@ -1,0 +1,496 @@
+#banner{
+	padding-top: 370px;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+.flexslider.banner{
+	height: 100%;
+	top: 0;
+}
+.flexslider.banner .slides{
+	height: 100%;
+}
+.flexslider.banner ul.slides li{
+	background-position: center;
+	background-size: auto 100%;
+	height: 100%;
+	position: relative;
+}
+.flexslider.banner ul.slides li .slide{
+	background: url(../images/delasalle_wea6b.png?2019) 20px 70px no-repeat;
+	background-size: 170px auto;
+	color: #fff;
+	padding: 150px 20px 20px 20px;
+	width: 70%;
+}
+.flexslider.banner ul.slides li.juegos .slide{
+	background-image: url(../juegos/images/juegos.png);
+	background-position: 10px 60px;
+}
+.flexslider.banner ul.slides li .slide .slide_title{
+	font-size: 18px;
+	font-weight: bold;
+	/*text-shadow: 0 0 2px #000;*/
+	text-shadow: -1px -1px 0 rgba(0,0,0,.7), 1px -1px 0 rgba(0,0,0,.7), -1px 1px 0 rgba(0,0,0,.7), 1px 1px 0 rgba(0,0,0,.7);
+}
+.flexslider.banner ul.slides li .slide .slide_subtitle{
+	color: #ff8f00;
+	font-weight: bold;
+	font-size: 18px;
+	padding-bottom: 20px;
+	text-shadow: -1px -1px 0 rgba(0,0,0,.3), 1px -1px 0 rgba(0,0,0,.3), -1px 1px 0 rgba(0,0,0,.3), 1px 1px 0 rgba(0,0,0,.3);
+}
+.flexslider.banner ul.slides li .slide .slide_subtitle span,
+.flexslider.banner ul.slides li .slide .slide_text span,
+.flexslider.banner ul.slides li .slide .slide_subtitle span a{
+	color: #fff;
+	text-shadow: -1px -1px 0 rgba(0,0,0,.7), 1px -1px 0 rgba(0,0,0,.7), -1px 1px 0 rgba(0,0,0,.7), 1px 1px 0 rgba(0,0,0,.7);
+}
+.flexslider.banner ul.flex-direction-nav{
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.flexslider.banner ul.flex-direction-nav li{
+	margin: 0 auto;
+	max-width: 1280px;
+	position: relative;
+	width: 100%;
+}
+.flexslider.banner ul.flex-direction-nav li a.flex-prev{
+	background-image: url(../admisiones/images/prev.png);
+	background-position: center;
+	left: inherit;
+	right: 60px;
+	top: 350px;
+}
+.flexslider.banner ul.flex-direction-nav li a.flex-next{
+	background-image: url(../admisiones/images/next.png);
+	background-position: center;
+	right: 20px;
+	top: 350px;
+}
+#main_links{
+	background: rgba(33,36,40,.95);
+	margin-bottom: 2px;
+	padding: 5px 20px;
+}
+#main_links ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#main_links ul li{
+	float: left;
+	padding: 7px 5px;
+	width: 50%;
+}
+#main_links ul li a{
+	color: #fff;
+}
+#main_links ul li a span{
+	display: block;
+	font-size: 12px;
+}
+#link1{
+	background: rgba(255,143,0,.9);
+	color: #fff;
+	display: block;
+	margin-bottom: 2px;
+	padding: 5px;
+	text-align: center;
+}
+#links2{
+	background: rgba(255,143,0,.9);
+	margin-bottom: 2px;
+	padding: 5px 0;
+}
+#links2 a{
+	color: #fff;
+	display: block;
+	margin: 3px 0;
+	padding: 5px;
+	text-align: center;
+}
+#links2 a strong{
+	font-size: 22px;
+}
+#links2 a span{
+	font-size: 18px;
+	margin-left: 10px;
+}
+#link3{
+	background: rgba(255,255,255,.7);
+	font-size: 20px;
+	padding: 10px 0;
+	text-align: center;
+}
+#link3 a{
+	display: block;
+	color: #212428;
+}
+#link3 a strong{
+	display: block;
+	font-size: 48px;
+}
+#link3 a span{
+	background: #ff8f00;
+	color: #fff;
+	display: block;
+	font-size: 12px;
+	margin-top: 10px;
+	padding: 5px;
+}
+#link5{
+	margin-bottom: 2px;
+	font-size: 20px;
+}
+#link5 a strong{
+	display: block;
+	font-size: 24px;
+}
+#link5 a{
+	color: #212428;
+	display: block;
+	padding: 10px;
+	text-align: center;
+}
+#link5 a:nth-child(1){
+	background: rgba(255,143,0,.9);
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+#link5 a:nth-child(1) span{
+	display: block;
+	font-size: 36px;
+}
+#link5 a:nth-child(2){
+	background: rgba(255,255,255,.7);
+}
+#link5 a img{
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	max-width: 200px;
+}
+#noticias{
+	margin-bottom: 2px;
+	min-height: 110px;
+}
+#noticias > a{
+	background: rgba(255,143,0,.9);
+	color: #fff;
+	display: block;
+	padding: 10px 20px;
+}
+#noticias > a strong{
+	color: #212428;
+	margin-right: 10px;
+}
+#news_wrapper{
+	background: rgba(33,36,40,.95);
+	height: 74px;
+	padding: 0 20px;
+	position: relative;
+}
+#news_slider{
+	padding-top: 10px;
+	position: relative;
+}
+#news_slider a{
+	color: #ff8f00;
+	display: block;
+}
+#news_slider a span{
+	color: #fff;
+	font-size: 12px;
+}
+.flexslider.news .flex-control-nav{
+	display: none;
+}
+.flexslider.news .flex-next{
+	background: url("../images/flex-next.jpg");
+	height: 18px;
+	opacity: 1;
+	right: 0;
+	top: -8px;
+	width: 30px;
+}
+.flexslider.news .flex-prev{
+	background: url("../images/flex-prev.jpg");
+	height: 18px;
+	left: auto;
+	opacity: 1;
+	right: 31px;
+	top: -8px;
+	width: 30px;
+}
+#links4 a{
+	background: rgba(33,36,40,.95);
+	background-position: 20px 15px;
+	background-size: 40px;
+	background-repeat: no-repeat;
+	color: #fff;
+	float: left;
+	font-size: 12px;
+	margin-bottom: 2px;
+	padding: 10px 20px 10px 70px;
+	width: 100%;
+}
+#links4 a strong{
+	color: #ff8f00;
+	display: block;
+	font-size: 14px;
+}
+#links4 a span{
+	color: #ff8f00;
+	display: block;
+	margin-top: 10px;
+}
+
+@media (min-width: 480px){
+	#banner{
+		padding-top: 704px;
+	}
+	.flexslider.banner ul.slides li .slide{
+		background-position: 20px 90px;
+		background-size: 280px auto;
+		padding-top: 180px;
+	}
+	.flexslider.banner ul.slides li.juegos .slide{
+		background-position: 10px 70px;
+		background-size: 250px auto;
+	}
+	.flexslider.banner ul.slides li .slide .slide_title{
+		font-size: 22px;
+	}
+	.flexslider.banner ul.flex-direction-nav li a.flex-prev{
+		top: 330px;
+	}
+	.flexslider.banner ul.flex-direction-nav li a.flex-next{
+		top: 330px;
+	}
+	#main_links ul li{
+		width: 33%;
+	}
+	#content_wrapper{
+		position: absolute;
+		top: 365px;
+		width: 100%;
+		z-index: 10
+	}
+	#link1,
+	#links2{
+		text-align: right;
+		width: 40%;
+	}
+	#links2{
+		float: left;
+		height: 100px;
+		width: 40%;
+	}
+	#link1,
+	#links2 a{
+		padding: 5px 20px;
+	}
+	#links2 a{
+		text-align: right;
+	}
+	#links2 a span{
+		display: block;
+		text-align: right;
+	}
+	#link3{
+		float: left;
+		height: 100px;
+		width: 60%;
+	}
+	#link5{
+		float: left;
+		width: 100%;
+	}
+	#link5 a:nth-child(1){
+		float: right;
+		height: 83px;
+		width: 40%;
+	}
+	#link5 a:nth-child(2){
+		float: right;
+		height: 83px;
+		width: 60%;
+	}
+	#noticias{
+		float: left;
+		width: 100%;
+	}
+	footer{
+		margin-top: 640px;
+	}
+}
+@media (min-width: 640px){
+	.flexslider.banner ul.slides li .slide{
+		background-size: 330px auto;
+		padding-top: 200px;
+		width: 60%;
+	}
+	.flexslider.banner ul.slides li.juegos .slide{
+		background-size: 280px auto;
+	}
+	#links4 a{
+		height: 154px;
+		width: 33.33%;
+		padding: 60px 15px 10px 15px;
+	}
+	/*#links4 a:nth-child(5){
+		width: 66.66%;
+	}*/
+	footer{
+		margin-top: 426px;
+	}
+}
+@media (min-width: 768px){
+	#banner{
+		padding-top: 811px;
+	}
+	.flexslider.banner ul.slides li .slide{
+		background-size: 400px auto;
+		padding-top: 230px;
+	}
+	.flexslider.banner ul.slides li.juegos .slide{
+		background-size: 340px auto;
+	}
+	.flexslider.banner ul.slides li .slide .slide_title{
+		font-size: 36px;
+	}
+	.flexslider.banner ul.slides li .slide .slide_subtitle span{
+		/*font-size: 24px;*/
+	}
+	.flexslider.banner ul.flex-direction-nav li a.flex-prev{
+		top: 450px;
+	}
+	.flexslider.banner ul.flex-direction-nav li a.flex-next{
+		top: 450px;
+	}
+	#main_links ul li{
+		width: 16.5%;
+	}
+	#content_wrapper{
+		top: 480px;
+	}
+	#link1{
+		padding-right: 40px;
+		width: 30%;
+	}
+	#links2,
+	#link3{
+		height: 110px;
+		width: 25%;
+	}
+	#links2 a{
+		/*padding-right: 40px;*/
+	}
+	#link5{
+		width: 50%;
+	}
+	#link5 a:nth-child(1),
+	#link5 a:nth-child(2){
+		float: left;
+		height: 110px;
+	}
+	#link5 a:nth-child(1) span{
+		margin-top: 10px;
+	}
+	#link5 a img{
+		padding-top: 15px;
+	}
+	footer{
+		margin-top: 315px;
+	}
+}
+@media (min-width: 1024px){
+	#banner{
+		margin-bottom: 315px;
+		padding-top: 758px;
+	}
+	#main_links{
+		float: left;
+		height: 54px;
+		width: 80%;
+	}
+	#link1{
+		float: left;
+		height: 54px;
+		padding: 10px 20px;
+		width: 20%;
+	}
+	#links2 a{
+		padding: 5px 10px;
+	}
+	#noticias{
+		/*width: 40%;*/
+	}
+	/*#links4 a{
+		padding: 60px 0 10px 20px;
+		width: 20%;
+	}
+	#links4 a:nth-child(5){
+		width: 20%;
+	}*/
+	footer{
+		margin-top: 2px;
+	}
+}
+@media (min-width: 1230px){
+	.flexslider.banner ul.slides li{
+		background-position: top center;
+		background-size: 100% auto;
+	}
+	.flexslider.banner ul.slides li .slide .slide_title{
+		font-size: 48px;
+	}
+}
+@media (min-width: 1280px){
+	.flexslider.banner ul.slides li .slide{
+		/*background-image: url(../images/delasalle_w2.png);
+		background-position: 20px 86px;
+		background-size: 550px auto;*/
+		margin: 0 auto;
+		max-width: 1280px;
+		/*padding-right: 40%;*/
+		width: 100%;
+	}
+	.flexslider.banner ul.slides li.juegos .slide{
+		background-size: 380px auto;
+	}
+	#banner{
+		margin-bottom: 0;
+		padding-top: 802px;
+	}
+	#content_wrapper{
+		left: 50%;
+		margin-left: -640px;
+		max-width: 1280px;
+	}
+	#links2,
+	#link3{
+		width: 15%;
+	}
+	#links4 a{
+		width: 16.66%;
+	}
+	#link5{
+		width: 30%;
+	}
+	#link5 a:nth-child(1){
+		width: 40%;
+	}
+	#link5 a:nth-child(2){
+		width: 60%;
+	}
+	#noticias{
+		width: 40%;
+	}
+}
